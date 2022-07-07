@@ -1,0 +1,337 @@
+﻿NUME,PROFIL,DESCHIDERE,LUNGIME,INALTIME,CULOARE,STICLA,PRET,IMAGINE
+fereastra,Aluplast,1/1,500,500,alb,dubla,68,images/F1.png
+fereastra,Aluplast,1/1,500,500,color,dubla,86,images/F1.png
+fereastra,Aluplast,1/1,500,500,alb,tripan,70,images/F1.png
+fereastra,Aluplast,1/1,500,500,color,tripan,88,images/F1.png
+fereastra,Rehau,1/1,500,500,alb,dubla,77,images/F1.png
+fereastra,Rehau,1/1,500,500,color,dubla,91,images/F1.png
+fereastra,Rehau,1/1,500,500,alb,tripan,78,images/F1.png
+fereastra,Rehau,1/1,500,500,color,tripan,93,images/F1.png
+fereastra,Synego,1/1,500,500,alb,tripan,110,images/F1.png
+fereastra,Synego,1/1,500,500,color,tripan,135,images/F1.png
+fereastra,Geneo,1/1,500,500,alb,tripan,107,images/F1.png
+fereastra,Geneo,1/1,500,500,color,tripan,135,images/F1.png
+fereastra,Aluplast,fix,1000,500,alb,dubla,51,images/F2.png
+fereastra,Aluplast,fix,1000,500,color,dubla,65,images/F2.png
+fereastra,Aluplast,fix,1000,500,alb,tripan,58,images/F2.png
+fereastra,Aluplast,fix,1000,500,color,tripan,72,images/F2.png
+fereastra,Rehau,fix,1000,500,alb,dubla,49,images/F2.png
+fereastra,Rehau,fix,1000,500,color,dubla,65,images/F2.png
+fereastra,Rehau,fix,1000,500,alb,tripan,59,images/F2.png
+fereastra,Rehau,fix,1000,500,color,tripan,75,images/F2.png
+fereastra,Synego,fix,1000,500,alb,tripan,82,images/F2.png
+fereastra,Synego,fix,1000,500,color,tripan,102,images/F2.png
+fereastra,Geneo,fix,1000,500,alb,tripan,92,images/F2.png
+fereastra,Geneo,fix,1000,500,color,tripan,116,images/F2.png
+fereastra,Aluplast,1/1,1000,500,alb,dubla,99,images/F3.png
+fereastra,Aluplast,1/1,1000,500,color,dubla,125,images/F3.png
+fereastra,Aluplast,1/1,1000,500,alb,tripan,104,images/F3.png
+fereastra,Aluplast,1/1,1000,500,color,tripan,130,images/F3.png
+fereastra,Rehau,1/1,1000,500,alb,dubla,106,images/F3.png
+fereastra,Rehau,1/1,1000,500,color,dubla,127,images/F3.png
+fereastra,Rehau,1/1,1000,500,alb,tripan,112,images/F3.png
+fereastra,Rehau,1/1,1000,500,color,tripan,135,images/F3.png
+fereastra,Synego,1/1,1000,500,alb,tripan,134,images/F3.png
+fereastra,Synego,1/1,1000,500,color,tripan,161,images/F3.png
+fereastra,Geneo,1/1,1000,500,alb,tripan,161,images/F3.png
+fereastra,Geneo,1/1,1000,500,color,tripan,204,images/F3.png
+fereastra,Aluplast,1/1,800,1200,alb,dubla,135,images/F4.png
+fereastra,Aluplast,1/1,800,1200,color,dubla,171,images/F4.png
+fereastra,Aluplast,1/1,800,1200,alb,tripan,147,images/F4.png
+fereastra,Aluplast,1/1,800,1200,color,tripan,182,images/F4.png
+fereastra,Rehau,1/1,800,1200,alb,dubla,143,images/F4.png
+fereastra,Rehau,1/1,800,1200,color,dubla,172,images/F4.png
+fereastra,Rehau,1/1,800,1200,alb,tripan,158,images/F4.png
+fereastra,Rehau,1/1,800,1200,color,tripan,190,images/F4.png
+fereastra,Synego,1/1,800,1200,alb,tripan,187,images/F4.png
+fereastra,Synego,1/1,800,1200,color,tripan,224,images/F4.png
+fereastra,Geneo,1/1,800,1200,alb,tripan,213,images/F4.png
+fereastra,Geneo,1/1,800,1200,color,tripan,256,images/F4.png
+fereastra,Aluplast,1/1,1400,1200,alb,dubla,199,images/F5.png
+fereastra,Aluplast,1/1,1400,1200,color,dubla,239,images/F5.png
+fereastra,Aluplast,1/1,1400,1200,alb,tripan,222,images/F5.png
+fereastra,Aluplast,1/1,1400,1200,color,tripan,266,images/F5.png
+fereastra,Rehau,1/1,1400,1200,alb,dubla,195,images/F5.png
+fereastra,Rehau,1/1,1400,1200,color,dubla,234,images/F5.png
+fereastra,Rehau,1/1,1400,1200,alb,tripan,227,images/F5.png
+fereastra,Rehau,1/1,1400,1200,color,tripan,272,images/F5.png
+fereastra,Synego,1/1,1400,1200,alb,tripan,282,images/F5.png
+fereastra,Synego,1/1,1400,1200,color,tripan,338,images/F5.png
+fereastra,Geneo,1/1,1400,1200,alb,tripan,317,images/F5.png
+fereastra,Geneo,1/1,1400,1200,color,tripan,380,images/F5.png
+fereastra,Aluplast,1/2,1400,1200,alb,dubla,249,images/F6.png
+fereastra,Aluplast,1/2,1400,1200,color,dubla,299,images/F6.png
+fereastra,Aluplast,1/2,1400,1200,alb,tripan,270,images/F6.png
+fereastra,Aluplast,1/2,1400,1200,color,tripan,324,images/F6.png
+fereastra,Rehau,1/2,1400,1200,alb,dubla,261,images/F6.png
+fereastra,Rehau,1/2,1400,1200,color,dubla,313,images/F6.png
+fereastra,Rehau,1/2,1400,1200,alb,tripan,289,images/F6.png
+fereastra,Rehau,1/2,1400,1200,color,tripan,347,images/F6.png
+fereastra,Synego,1/2,1400,1200,alb,tripan,335,images/F6.png
+fereastra,Synego,1/2,1400,1200,color,tripan,402,images/F6.png
+fereastra,Geneo,1/2,1400,1200,alb,tripan,377,images/F6.png
+fereastra,Geneo,1/2,1400,1200,color,tripan,452,images/F6.png
+fereastra,Aluplast,1/1,2200,1200,alb,dubla,278,images/F7.png
+fereastra,Aluplast,1/1,2200,1200,color,dubla,334,images/F7.png
+fereastra,Aluplast,1/1,2200,1200,alb,tripan,316,images/F7.png
+fereastra,Aluplast,1/1,2200,1200,color,tripan,379,images/F7.png
+fereastra,Rehau,1/1,2200,1200,alb,dubla,295,images/F7.png
+fereastra,Rehau,1/1,2200,1200,color,dubla,354,images/F7.png
+fereastra,Rehau,1/1,2200,1200,alb,tripan,315,images/F7.png
+fereastra,Rehau,1/1,2200,1200,color,tripan,378,images/F7.png
+fereastra,Synego,1/1,2200,1200,alb,tripan,400,images/F7.png
+fereastra,Synego,1/1,2200,1200,color,tripan,480,images/F7.png
+fereastra,Geneo,1/1,2200,1200,alb,tripan,446,images/F7.png
+fereastra,Geneo,1/1,2200,1200,color,tripan,535,images/F7.png
+fereastra,Aluplast,1/2,2200,1200,alb,dubla,333,images/F8.png
+fereastra,Aluplast,1/2,2200,1200,color,dubla,400,images/F8.png
+fereastra,Aluplast,1/2,2200,1200,alb,tripan,368,images/F8.png
+fereastra,Aluplast,1/2,2200,1200,color,tripan,442,images/F8.png
+fereastra,Rehau,1/2,2200,1200,alb,dubla,353,images/F8.png
+fereastra,Rehau,1/2,2200,1200,color,dubla,424,images/F8.png
+fereastra,Rehau,1/2,2200,1200,alb,tripan,388,images/F8.png
+fereastra,Rehau,1/2,2200,1200,color,tripan,466,images/F8.png
+fereastra,Synego,1/2,2200,1200,alb,tripan,478,images/F8.png
+fereastra,Synego,1/2,2200,1200,color,tripan,574,images/F8.png
+fereastra,Geneo,1/2,2200,1200,alb,tripan,533,images/F8.png
+fereastra,Geneo,1/2,2200,1200,color,tripan,640,images/F8.png
+fereastra,Aluplast,1/1,900,1500,alb,dubla,165,images/F9.png
+fereastra,Aluplast,1/1,900,1500,color,dubla,198,images/F9.png
+fereastra,Aluplast,1/1,900,1500,alb,tripan,182,images/F9.png
+fereastra,Aluplast,1/1,900,1500,color,tripan,218,images/F9.png
+fereastra,Rehau,1/1,900,1500,alb,dubla,175,images/F9.png
+fereastra,Rehau,1/1,900,1500,color,dubla,210,images/F9.png
+fereastra,Rehau,1/1,900,1500,alb,tripan,193,images/F9.png
+fereastra,Rehau,1/1,900,1500,color,tripan,231,images/F9.png
+fereastra,Synego,1/1,900,1500,alb,tripan,237,images/F9.png
+fereastra,Synego,1/1,900,1500,color,tripan,284,images/F9.png
+fereastra,Geneo,1/1,900,1500,alb,tripan,264,images/F9.png
+fereastra,Geneo,1/1,900,1500,color,tripan,317,images/F9.png
+fereastra,Aluplast,1/1,1500,1500,alb,dubla,239,images/F10.png
+fereastra,Aluplast,1/1,1500,1500,color,dubla,287,images/F10.png
+fereastra,Aluplast,1/1,1500,1500,alb,tripan,325,images/F10.png
+fereastra,Aluplast,1/1,1500,1500,color,tripan,390,images/F10.png
+fereastra,Rehau,1/1,1500,1500,alb,dubla,253,images/F10.png
+fereastra,Rehau,1/1,1500,1500,color,dubla,304,images/F10.png
+fereastra,Rehau,1/1,1500,1500,alb,tripan,278,images/F10.png
+fereastra,Rehau,1/1,1500,1500,color,tripan,334,images/F10.png
+fereastra,Synego,1/1,1500,1500,alb,tripan,311,images/F10.png
+fereastra,Synego,1/1,1500,1500,color,tripan,373,images/F10.png
+fereastra,Geneo,1/1,1500,1500,alb,tripan,347,images/F10.png
+fereastra,Geneo,1/1,1500,1500,color,tripan,416,images/F10.png
+fereastra,Aluplast,1/2,1500,1500,alb,dubla,297,images/F11.png
+fereastra,Aluplast,1/2,1500,1500,color,dubla,356,images/F11.png
+fereastra,Aluplast,1/2,1500,1500,alb,tripan,336,images/F11.png
+fereastra,Aluplast,1/2,1500,1500,color,tripan,392,images/F11.png
+fereastra,Rehau,1/2,1500,1500,alb,dubla,314,images/F11.png
+fereastra,Rehau,1/2,1500,1500,color,dubla,377,images/F11.png
+fereastra,Rehau,1/2,1500,1500,alb,tripan,345,images/F11.png
+fereastra,Rehau,1/2,1500,1500,color,tripan,415,images/F11.png
+fereastra,Synego,1/2,1500,1500,alb,tripan,437,images/F11.png
+fereastra,Synego,1/2,1500,1500,color,tripan,524,images/F11.png
+fereastra,Geneo,1/2,1500,1500,alb,tripan,487,images/F11.png
+fereastra,Geneo,1/2,1500,1500,color,tripan,585,images/F11.png
+fereastra,Aluplast,1/3,2000,1500,alb,dubla,306,images/F12.png
+fereastra,Aluplast,1/3,2000,1500,color,dubla,367,images/F12.png
+fereastra,Aluplast,1/3,2000,1500,alb,tripan,350,images/F12.png
+fereastra,Aluplast,1/3,2000,1500,color,tripan,420,images/F12.png
+fereastra,Rehau,1/3,2000,1500,alb,dubla,324,images/F12.png
+fereastra,Rehau,1/3,2000,1500,color,dubla,389,images/F12.png
+fereastra,Rehau,1/3,2000,1500,alb,tripan,356,images/F12.png
+fereastra,Rehau,1/3,2000,1500,color,tripan,428,images/F12.png
+fereastra,Synego,1/3,2000,1500,alb,tripan,455,images/F12.png
+fereastra,Synego,1/3,2000,1500,color,tripan,546,images/F12.png
+fereastra,Geneo,1/3,2000,1500,alb,tripan,508,images/F12.png
+fereastra,Geneo,1/3,2000,1500,color,tripan,609,images/F12.png
+fereastra,Aluplast,2/3,2000,1500,alb,dubla,366,images/F13.png
+fereastra,Aluplast,2/3,2000,1500,color,dubla,439,images/F13.png
+fereastra,Aluplast,2/3,2000,1500,alb,tripan,406,images/F13.png
+fereastra,Aluplast,2/3,2000,1500,color,tripan,487,images/F13.png
+fereastra,Rehau,2/3,2000,1500,alb,dubla,388,images/F13.png
+fereastra,Rehau,2/3,2000,1500,color,dubla,466,images/F13.png
+fereastra,Rehau,2/3,2000,1500,alb,tripan,427,images/F13.png
+fereastra,Rehau,2/3,2000,1500,color,tripan,512,images/F13.png
+fereastra,Synego,2/3,2000,1500,alb,tripan,528,images/F13.png
+fereastra,Synego,2/3,2000,1500,color,tripan,633,images/F13.png
+fereastra,Geneo,2/3,2000,1500,alb,tripan,589,images/F13.png
+fereastra,Geneo,2/3,2000,1500,color,tripan,706,images/F13.png
+usa,Aluplast,1/1,1000,2100,alb,dubla,497,images/U1.png
+usa,Aluplast,1/1,1000,2100,color,dubla,562,images/U1.png
+usa,Aluplast,1/1,1000,2100,alb,tripan,520,images/U1.png
+usa,Aluplast,1/1,1000,2100,color,tripan,591,images/U1.png
+usa,Rehau,1/1,1000,2100,alb,dubla,573,images/U1.png
+usa,Rehau,1/1,1000,2100,color,dubla,651,images/U1.png
+usa,Rehau,1/1,1000,2100,alb,tripan,593,images/U1.png
+usa,Rehau,1/1,1000,2100,color,tripan,708,images/U1.png
+usa,Synego,1/1,1000,2100,alb,tripan,640,images/U1.png
+usa,Synego,1/1,1000,2100,color,tripan,767,images/U1.png
+usa,Geneo,1/1,1000,2100,alb,tripan,700,images/U1.png
+usa,Geneo,1/1,1000,2100,color,tripan,854,images/U1.png
+usa,Aluplast,1/1L,1000,2500,alb,dubla,545,images/U2.png
+usa,Aluplast,1/1L,1000,2500,color,dubla,654,images/U2.png
+usa,Aluplast,1/1L,1000,2500,alb,tripan,600,images/U2.png
+usa,Aluplast,1/1L,1000,2500,color,tripan,719,images/U2.png
+usa,Rehau,1/1L,1000,2500,alb,dubla,578,images/U2.png
+usa,Rehau,1/1L,1000,2500,color,dubla,693,images/U2.png
+usa,Rehau,1/1L,1000,2500,alb,tripan,636,images/U2.png
+usa,Rehau,1/1L,1000,2500,color,tripan,763,images/U2.png
+usa,Synego,1/1L,1000,2500,alb,tripan,780,images/U2.png
+usa,Synego,1/1L,1000,2500,color,tripan,936,images/U2.png
+usa,Geneo,1/1L,1000,2500,alb,tripan,870,images/U2.png
+usa,Geneo,1/1L,1000,2500,color,tripan,1044,images/U2.png
+usa,Aluplast,1/2,1200,2100,alb,dubla,600,images/U3.png
+usa,Aluplast,1/2,1200,2100,color,dubla,720,images/U3.png
+usa,Aluplast,1/2,1200,2100,alb,tripan,660,images/U3.png
+usa,Aluplast,1/2,1200,2100,color,tripan,792,images/U3.png
+usa,Rehau,1/2,1200,2100,alb,dubla,639,images/U3.png
+usa,Rehau,1/2,1200,2100,color,dubla,767,images/U3.png
+usa,Rehau,1/2,1200,2100,alb,tripan,703,images/U3.png
+usa,Rehau,1/2,1200,2100,color,tripan,843,images/U3.png
+usa,Synego,1/2,1200,2100,alb,tripan,858,images/U3.png
+usa,Synego,1/2,1200,2100,color,tripan,1030,images/U3.png
+usa,Geneo,1/2,1200,2100,alb,tripan,957,images/U3.png
+usa,Geneo,1/2,1200,2100,color,tripan,1148,images/U3.png
+usa,Aluplast,1/2,1200,2100,alb,dubla,725,images/U4.png
+usa,Aluplast,1/2,1200,2100,color,dubla,870,images/U4.png
+usa,Aluplast,1/2,1200,2100,alb,tripan,798,images/U4.png
+usa,Aluplast,1/2,1200,2100,color,tripan,957,images/U4.png
+usa,Rehau,1/2,1200,2100,alb,dubla,769,images/U4.png
+usa,Rehau,1/2,1200,2100,color,dubla,922,images/U4.png
+usa,Rehau,1/2,1200,2100,alb,tripan,846,images/U4.png
+usa,Rehau,1/2,1200,2100,color,tripan,1014,images/U4.png
+usa,Synego,1/2,1200,2100,alb,tripan,1037,images/U4.png
+usa,Synego,1/2,1200,2100,color,tripan,1245,images/U4.png
+usa,Geneo,1/2,1200,2100,alb,tripan,1157,images/U4.png
+usa,Geneo,1/2,1200,2100,color,tripan,1389,images/U4.png
+usa,Aluplast,1/2L,1200,2500,alb,dubla,644,images/U5.png
+usa,Aluplast,1/2L,1200,2500,color,dubla,773,images/U5.png
+usa,Aluplast,1/2L,1200,2500,alb,tripan,708,images/U5.png
+usa,Aluplast,1/2L,1200,2500,color,tripan,850,images/U5.png
+usa,Rehau,1/2L,1200,2500,alb,dubla,683,images/U5.png
+usa,Rehau,1/2L,1200,2500,color,dubla,820,images/U5.png
+usa,Rehau,1/2L,1200,2500,alb,tripan,751,images/U5.png
+usa,Rehau,1/2L,1200,2500,color,tripan,902,images/U5.png
+usa,Synego,1/2L,1200,2500,alb,tripan,920,images/U5.png
+usa,Synego,1/2L,1200,2500,color,tripan,1104,images/U5.png
+usa,Geneo,1/2L,1200,2500,alb,tripan,1027,images/U5.png
+usa,Geneo,1/2L,1200,2500,color,tripan,1232,images/U5.png
+usa,Aluplast,2/2L,1200,2500,alb,dubla,776,images/U6.png
+usa,Aluplast,2/2L,1200,2500,color,dubla,931,images/U6.png
+usa,Aluplast,2/2L,1200,2500,alb,tripan,854,images/U6.png
+usa,Aluplast,2/2L,1200,2500,color,tripan,1024,images/U6.png
+usa,Rehau,2/2L,1200,2500,alb,dubla,823,images/U6.png
+usa,Rehau,2/2L,1200,2500,color,dubla,987,images/U6.png
+usa,Rehau,2/2L,1200,2500,alb,tripan,905,images/U6.png
+usa,Rehau,2/2L,1200,2500,color,tripan,1086,images/U6.png
+usa,Synego,2/2L,1200,2500,alb,tripan,1110,images/U6.png
+usa,Synego,2/2L,1200,2500,color,tripan,1332,images/U6.png
+usa,Geneo,2/2L,1200,2500,alb,tripan,1238,images/U6.png
+usa,Geneo,2/2L,1200,2500,color,tripan,1486,images/U6.png
+usa,Aluplast,1/2,1500,2100,alb,dubla,608,images/U7.png
+usa,Aluplast,1/2,1500,2100,color,dubla,730,images/U7.png
+usa,Aluplast,1/2,1500,2100,alb,tripan,669,images/U7.png
+usa,Aluplast,1/2,1500,2100,color,tripan,803,images/U7.png
+usa,Rehau,1/2,1500,2100,alb,dubla,645,images/U7.png
+usa,Rehau,1/2,1500,2100,color,dubla,774,images/U7.png
+usa,Rehau,1/2,1500,2100,alb,tripan,710,images/U7.png
+usa,Rehau,1/2,1500,2100,color,tripan,851,images/U7.png
+usa,Synego,1/2,1500,2100,alb,tripan,870,images/U7.png
+usa,Synego,1/2,1500,2100,color,tripan,1084,images/U7.png
+usa,Geneo,1/2,1500,2100,alb,tripan,970,images/U7.png
+usa,Geneo,1/2,1500,2100,color,tripan,1164,images/U7.png
+usa,Aluplast,1/2,1500,2100,alb,dubla,773,images/U8.png
+usa,Aluplast,1/2,1500,2100,color,dubla,927,images/U8.png
+usa,Aluplast,1/2,1500,2100,alb,tripan,850,images/U8.png
+usa,Aluplast,1/2,1500,2100,color,tripan,1020,images/U8.png
+usa,Rehau,1/2,1500,2100,alb,dubla,819,images/U8.png
+usa,Rehau,1/2,1500,2100,color,dubla,983,images/U8.png
+usa,Rehau,1/2,1500,2100,alb,tripan,901,images/U8.png
+usa,Rehau,1/2,1500,2100,color,tripan,1082,images/U8.png
+usa,Synego,1/2,1500,2100,alb,tripan,1105,images/U8.png
+usa,Synego,1/2,1500,2100,color,tripan,1326,images/U8.png
+usa,Geneo,1/2,1500,2100,alb,tripan,1233,images/U8.png
+usa,Geneo,1/2,1500,2100,color,tripan,1479,images/U8.png
+usa,Aluplast,1/2L,1500,2100,alb,dubla,678,images/U9.png
+usa,Aluplast,1/2L,1500,2500,color,dubla,817,images/U9.png
+usa,Aluplast,1/2L,1500,2500,alb,tripan,746,images/U9.png
+usa,Aluplast,1/2L,1500,2500,color,tripan,895,images/U9.png
+usa,Rehau,1/2L,1500,2500,alb,dubla,719,images/U9.png
+usa,Rehau,1/2L,1500,2500,color,dubla,862,images/U9.png
+usa,Rehau,1/2L,1500,2500,alb,tripan,791,images/U9.png
+usa,Rehau,1/2L,1500,2500,color,tripan,949,images/U9.png
+usa,Synego,1/2L,1500,2500,alb,tripan,970,images/U9.png
+usa,Synego,1/2L,1500,2500,color,tripan,1164,images/U9.png
+usa,Geneo,1/2L,1500,2500,alb,tripan,1082,images/U9.png
+usa,Geneo,1/2L,1500,2500,color,tripan,1298,images/U9.png
+usa,Aluplast,2/2L,1500,2500,alb,dubla,829,images/U10.png
+usa,Aluplast,2/2L,1500,2500,color,dubla,995,images/U10.png
+usa,Aluplast,2/2L,1500,2500,alb,tripan,912,images/U10.png
+usa,Aluplast,2/2L,1500,2500,color,tripan,1094,images/U10.png
+usa,Rehau,2/2L,1500,2500,alb,dubla,879,images/U10.png
+usa,Rehau,2/2L,1500,2500,color,dubla,1054,images/U10.png
+usa,Rehau,2/2L,1500,2500,alb,tripan,967,images/U10.png
+usa,Rehau,2/2L,1500,2500,color,tripan,1160,images/U10.png
+usa,Synego,2/2L,1500,2500,alb,tripan,1186,images/U10.png
+usa,Synego,2/2L,1500,2500,color,tripan,1423,images/U10.png
+usa,Geneo,2/2L,1500,2500,alb,tripan,1322,images/U10.png
+usa,Geneo,2/2L,1500,2500,color,tripan,1587,images/U10.png
+usa balcon,Aluplast,1/1,800,2100,alb,dubla,212,images/Ub1.png
+usa balcon,Aluplast,1/1,800,2100,color,dubla,254,images/Ub1.png
+usa balcon,Aluplast,1/1,800,2100,alb,tripan,233,images/Ub1.png
+usa balcon,Aluplast,1/1,800,2100,color,tripan,280,images/Ub1.png
+usa balcon,Rehau,1/1,800,2100,alb,dubla,225,images/Ub1.png
+usa balcon,Rehau,1/1,800,2100,color,dubla,270,images/Ub1.png
+usa balcon,Rehau,1/1,800,2100,alb,tripan,248,images/Ub1.png
+usa balcon,Rehau,1/1,800,2100,color,tripan,297,images/Ub1.png
+usa balcon,Synego,1/1,800,2100,alb,tripan,303,images/Ub1.png
+usa balcon,Synego,1/1,800,2100,color,tripan,363,images/Ub1.png
+usa balcon,Geneo,1/1,800,2100,alb,tripan,338,images/Ub1.png
+usa balcon,Geneo,1/1,1400,2100,color,tripan,405,images/Ub1.png
+usa balcon,Aluplast,1/2,1400,2100,alb,dubla,309,images/Ub2.png
+usa balcon,Aluplast,1/2,1400,2100,color,dubla,371,images/Ub2.png
+usa balcon,Aluplast,1/2,1400,2100,alb,tripan,340,images/Ub2.png
+usa balcon,Aluplast,1/2,1400,2100,color,tripan,408,images/Ub2.png
+usa balcon,Rehau,1/2,1400,2100,alb,dubla,328,images/Ub2.png
+usa balcon,Rehau,1/2,1400,2100,color,dubla,393,images/Ub2.png
+usa balcon,Rehau,1/2,1400,2100,alb,tripan,361,images/Ub2.png
+usa balcon,Rehau,1/2,1400,2100,color,tripan,432,images/Ub2.png
+usa balcon,Synego,1/2,1400,2100,alb,tripan,442,images/Ub2.png
+usa balcon,Synego,1/2,1400,2100,color,tripan,530,images/Ub2.png
+usa balcon,Geneo,1/2,1400,2100,alb,tripan,493,images/Ub2.png
+usa balcon,Geneo,1/2,1400,2100,color,tripan,592,images/Ub2.png
+usa balcon,Aluplast,1/2,1400,2100,alb,dubla,392,images/Ub3.png
+usa balcon,Aluplast,1/2,1400,2100,color,dubla,470,images/Ub3.png
+usa balcon,Aluplast,1/2,1400,2100,alb,tripan,431,images/Ub3.png
+usa balcon,Aluplast,1/2,1400,2100,color,tripan,517,images/Ub3.png
+usa balcon,Rehau,1/2,1400,2100,alb,dubla,416,images/Ub3.png
+usa balcon,Rehau,1/2,1400,2100,color,dubla,499,images/Ub3.png
+usa balcon,Rehau,1/2,1400,2100,alb,tripan,458,images/Ub3.png
+usa balcon,Rehau,1/2,1400,2100,color,tripan,548,images/Ub3.png
+usa balcon,Synego,1/2,1400,2100,alb,tripan,560,images/Ub3.png
+usa balcon,Synego,1/2,1400,2100,color,tripan,672,images/Ub3.png
+usa balcon,Geneo,1/2,1400,2100,alb,tripan,625,images/Ub3.png
+usa balcon,Geneo,1/2,1400,2100,color,tripan,750,images/Ub3.png
+usa balcon,Aluplast,1/3,2400,2100,alb,dubla,450,images/Ub4.png
+usa balcon,Aluplast,1/3,2400,2100,color,dubla,540,images/Ub4.png
+usa balcon,Aluplast,1/3,2400,2100,alb,tripan,495,images/Ub4.png
+usa balcon,Aluplast,1/3,2400,2100,color,tripan,594,images/Ub4.png
+usa balcon,Rehau,1/3,2400,2100,alb,dubla,477,images/Ub4.png
+usa balcon,Rehau,1/3,2400,2100,color,dubla,572,images/Ub4.png
+usa balcon,Rehau,1/3,2400,2100,alb,tripan,525,images/Ub4.png
+usa balcon,Rehau,1/3,2400,2100,color,tripan,630,images/Ub4.png
+usa balcon,Synego,1/3,2400,2100,alb,tripan,644,images/Ub4.png
+usa balcon,Synego,1/3,2400,2100,color,tripan,772,images/Ub4.png
+usa balcon,Geneo,1/3,2400,2100,alb,tripan,718,images/Ub4.png
+usa balcon,Geneo,1/3,2400,2100,color,tripan,861,images/Ub4.png
+usa balcon,Aluplast,2/3,2400,2100,alb,dubla,536,images/Ub5.png
+usa balcon,Aluplast,2/3,2400,2100,color,dubla,643,images/Ub5.png
+usa balcon,Aluplast,2/3,2400,2100,alb,tripan,590,images/Ub5.png
+usa balcon,Aluplast,2/3,2400,2100,color,tripan,708,images/Ub5.png
+usa balcon,Rehau,2/3,2400,2100,alb,dubla,568,images/Ub5.png
+usa balcon,Rehau,2/3,2400,2100,color,dubla,682,images/Ub5.png
+usa balcon,Rehau,2/3,2400,2100,alb,tripan,625,images/Ub5.png
+usa balcon,Rehau,2/3,2400,2100,color,tripan,750,images/Ub5.png
+usa balcon,Synego,2/3,2400,2100,alb,tripan,767,images/Ub5.png
+usa balcon,Synego,2/3,2400,2100,color,tripan,920,images/Ub5.png
+usa balcon,Geneo,2/3,2400,2100,alb,tripan,856,images/Ub5.png
+usa balcon,Geneo,2/3,2400,2100,color,tripan,1027,images/Ub5.png

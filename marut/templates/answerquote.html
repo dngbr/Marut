@@ -1,0 +1,50 @@
+{% extends "base.html" %} {% load static %} {% block title%}
+<title>Marut</title>
+{% endblock title %} {% block main %}
+<div id="contact" class="contact">
+  <div class="container">
+    <div class="row d_flex">
+      <div class="col-md-6">
+        <div class="contact_box">
+          <div class="titlepage">
+            <span>raspunde ofertei</span>
+            <h2>Adauga oferta si trimite-o</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <form
+          action="{% url 'answerquote' %}"
+          method="post"
+          id="contact"
+          class="main_form"
+        >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-md-12">{{quote.nume}} {{quote.prenume}}</div>
+            <div class="col-md-12">Numar de telefon: {{quote.telefon}}</div>
+            <div class="col-md-12">Email: {{quote.email}}</div>
+            <div class="col-md-12">
+              <label for="file">Selecteaza fisier:</label>
+              <input type="file" id="file" name="file" />
+            </div>
+            <div class="col-md-12">
+              <textarea
+                class="textarea"
+                placeholder="Mesaj"
+                type="text"
+                name="message"
+              ></textarea>
+            </div>
+
+            <div class="col-sm-12">
+              <input class="btn send_btn" type="submit" value="TRIMITE" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding-bottom: 300px"></div>
+{% endblock main %}

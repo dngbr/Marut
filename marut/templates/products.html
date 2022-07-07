@@ -1,0 +1,81 @@
+{% extends "base.html" %} {% load static %} {% block title %}
+<title>Marut - produsele noastre</title>
+{% endblock title %} {% block main %}
+<div class="container">
+  <div class="products">
+    <span>Vezi mai jos produsele noastre</span>
+    <h2>Produsele noastre</h2>
+    <p>
+      Descoperă produsele noastre. Descoperă tehnologia. Descoperă produsele și
+      caracteristicile tehnice ale acestora. Descoperă calitățile și atuurile
+      fiecărui produs.
+    </p>
+
+    <hr style="margin-top: 50px; margin-bottom: 40px" />
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/aluplast70/"
+              ><img src="{% static 'images/aluplast70.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/aluplast70/"><h3>ALUPLAST70</h3></a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/rehau70/"
+              ><img src="{% static 'images/rehaueurodesign70.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/rehau70/"><h3>EURO DESIGN</h3></a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/synego/"
+              ><img src="{% static 'images/synego.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/synego/"><h3>SYNEGO</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/geneophz/"
+              ><img src="{% static 'images/geneophz.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/geneophz/"><h3>GENEO PHZ</h3></a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/usi/"
+              ><img src="{% static 'images/usarehau.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/usi/"><h3>UȘI</h3></a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
+        <div class="products_box">
+          <figure>
+            <a href="/rulouri/"
+              ><img src="{% static 'images/rulou.png' %}" alt="#"
+            /></a>
+          </figure>
+          <a href="/rulouri/"><h3>RULOURI</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock main%}

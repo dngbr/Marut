@@ -1,0 +1,96 @@
+{% extends "base.html" %} {% load static %} {% block title %}<title>
+  Profilul tau, {{user}}</title
+>{% endblock title %} {% block main %}
+
+<div
+  class="container titlepage"
+  style="background-color: #f3f2f2; height: 100%"
+>
+  <h2 class="text-center" style="margin-top: 50px; padding-top: 30px">
+    Profilul tau, {{user}}
+  </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card" style="margin: 20px">
+        <h3 class="card-title">DATELE TALE PERSONALE</h3>
+        <p style="color: #c50000; font-weight: bold">
+          *actualizeaza datele de mai jos
+        </p>
+        <p>
+          Nume: {{request.user.profile.nume}} {{request.user.profile.prenume}}
+        </p>
+        <p>Email: {{request.user.email}}</p>
+        <p>Numar de telefon: {{request.user.profile.telefon}}</p>
+        <p>Adresa: {{request.user.profile.adresa}}</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card text-center" style="margin: 20px">
+        <h3 class="card-title">EDITEAZA DATE PERSONALE</h3>
+        <form method="post" action="">
+          {% csrf_token %}
+          <label for="nume">Nume</label>
+          <input class="form-control" name="nume" />
+          <label for="prenume">Prenume</label>
+          <input class="form-control" name="prenume" />
+          <label for="adresa">Adresa</label>
+          <input class="form-control" name="adresa" />
+          <label for="telefon">Telefon</label>
+          <input class="form-control" name="telefon" />
+          <input
+            class="btn readmoreb"
+            style="margin: 20px"
+            type="submit"
+            value="Save"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% if user.username == 'admin' %}
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <span>vezi toate ofertele</span>
+      <h2
+        class="text-center"
+        style="color: #02185b; font-weight: bold; font-size: 45px"
+      >
+        OFERTE
+      </h2>
+      {% for quote in quotes %}
+      <div class="card" style="margin: 40px">
+        <h3 class="card-title text-center">{{quote}}</h3>
+        {% for pq in pqs %} {% if pq.quote.id == quote.id %}
+        <p>{{pq}}</p>
+        {% endif %} {% endfor %}
+        <hr />
+        <h4>PRET COMANDA {{quote.suma}} EURO FARA ADAOS(30%)</h4>
+        <hr />
+        <div class="text-center" style="padding: 20px">
+          {% if not quote.responded %}
+          <form action="{% url 'answerquote' quote.id %}" method="post">
+            {%csrf_token%}
+            <label for="file">Fisier:</label>
+            <input type="file" name="file" id="file" />
+            <input class="btn readmoreb" type="submit" value="RASPUNDE" />
+          </form>
+          {% else %}
+          <p style="color: green; font-weight: bold">
+            Oferta a primit raspuns!
+          </p>
+          {% endif %}
+          <form action="{% url 'deletequote' quote.id %}" method="post">
+            {%csrf_token%}
+            <input class="btn readmoreb" type="submit" value="DELETE" />
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-md-1"></div>
+    {% endif %}
+  </div>
+</div>
+<div style="padding-bottom: 300px"></div>
+{% endblock main %}

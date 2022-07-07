@@ -1,0 +1,72 @@
+{% extends "base.html" %} {% load static %} {% block title %}
+<title>Marut - calculator estimativ</title>
+{% endblock title %} {% block main %}
+<div class="container titlepage" style="margin-top: 100px; margin-bottom: 700px;background-color:#f3f2f2">
+  <h2 style="padding-top: 20px;margin-bottom:50px">CALCULATOR ESTIMATIV</h2>
+  <p>
+  Scurt ghid de utilizare:
+  <ul style="list-style:none;">
+    <li>incepe prin a adauga un produs</li>
+    <li>daca nu gasesti produsele pe care le doresti apasa pe "CUSTOM" </li>
+    <li>daca doresti sa anulezi comanda apasa pe "ANULEAZA" </li>
+    <li>pentru a solicita o oferta cu un pret precis apasa pe "SOLICITA OFERTA"  </li>
+  </ul>
+</p>
+  <div class="row" style="padding-top: 50px;">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 text-center">
+      <div class="card">
+        <h2 style="color: #02185b; margin:30px; font-weight:bold; font-size:40px">COMANDA TA</h2>
+        {% for instance in pq %}
+        {% if instance.quote.id == quote%}
+        <div class="card" style="margin: 10px">
+          <div class="row" style="margin: 10px">
+            <div class="col-8">
+              <h5 class="card-title" style="color: #12153c; font-weight:bold">
+                {{instance.product.nume}} {{instance.product.profil}}
+                {{instance.product.lungime}}x{{instance.product.inaltime}}
+              </h5>
+              <p class="card-text">Profil:{{instance.product.profil}}</p>
+              <p class="card-text">Deschidere:{{instance.product.deschidere}}</p>
+              <p class="card-text">Lungime:{{instance.product.lungime}} cm</p>
+              <p class="card-text">Inaltime:{{instance.product.inaltime}} cm</p>
+              <p class="card-text">Culoare:{{instance.product.culoare}}</p>
+              <p class="card-text">Sticla:{{instance.product.sticla}}</p>
+              <form action="{% url 'deleteproduct' instance.id %}" method="post">
+              {%csrf_token%}
+              <input class="btn deleteproduct" type="submit" value="DELETE" style="background-color:#ebce09;color:#02185b">
+              </form>
+            </div>
+            <div class="col-4"><img src={% static instance.product.imagine %} ></div>
+          </div>
+          
+        </div>
+        {% endif %}
+        {% endfor %}
+        <hr>
+        <h3>TOTAL PRET COMANDA: {{suma}} EURO</h3>
+        <p style="color:#C50000; font-weight:bold">*** in pret sunt incluse urmatoarele: tva, transport, montaj</p>
+        <p style="color:#C50000; font-weight:bold">**** in pret NU sunt incluse urmatoarele: accesorii (plasa tantari, rulouri, pervaze)</p>
+      </div>
+      <a href="/cancelquote/" class="btn readmoreb" style="margin:30px">
+        ANULEAZA
+      </a>
+      <a href="/customquote/" class="btn readmoreb" style="margin:30px">
+        CUSTOM
+      </a>
+      <a href="/addproduct/"
+        class="btn readmoreb"
+        style="margin: 30px"
+      />ADAUGA PRODUS</a>
+      
+      <a href="/submitquote/"
+        class="btn readmoreb"
+        type="submit"
+        value="SOLICITA O OFERTA"
+        style="margin: 30px"
+      />SOLICITA OFERTA</a>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+{% endblock main %}

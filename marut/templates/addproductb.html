@@ -1,0 +1,390 @@
+{% extends "base.html" %} {% load static %} {% block title %}
+<title>Marut - calculator estimativ</title>
+{% endblock title %} {% block main %}
+
+<div class="container" style="margin-top: 100px; margin-bottom: 700px">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 text-center">
+      <div class="card">
+        <form method="POST" action="" style="margin: 10px">
+          {% csrf_token %}
+          <h1 style="font-weight: bold; color: #02185b; font-size: 60px">
+            ADAUGA PRODUS
+          </h1>
+          <div id="nume" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              TIP PRODUS
+            </h3>
+            <label>
+              <input
+                id="radioFereastra"
+                name="nume"
+                type="radio"
+                value="fereastra"
+              />
+              <span> fereastra</span>
+            </label>
+            <label>
+              <input id="radioUsa" name="nume" type="radio" value="usa" />
+              <span> usa</span>
+            </label>
+            <label>
+              <input
+                id="radioBalcon"
+                name="nume"
+                type="radio"
+                value="usa balcon"
+              />
+              <span> usa balcon</span>
+            </label>
+          </div>
+          <div id="dimensiuneFereastra" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DIMENSIUNE FEREASTRA
+            </h3>
+            <label>
+              <input
+                id="radio500x500"
+                name="dimensiune"
+                type="radio"
+                value="500x500"
+              />
+              <span> 500x500</span>
+            </label>
+            <label>
+              <input
+                id="radio1000x500"
+                name="dimensiune"
+                type="radio"
+                value="1000x500"
+              />
+              <span> 1000x500</span>
+            </label>
+            <label>
+              <input
+                id="radio800x1200"
+                name="dimensiune"
+                type="radio"
+                value="800x1200"
+              />
+              <span> 800x1200</span>
+            </label>
+            <label>
+              <input
+                id="radio1400x1200"
+                name="dimensiune"
+                type="radio"
+                value="1400x1200"
+              />
+              <span> 1400x1200</span>
+            </label>
+            <label>
+              <input
+                id="radio2200x1200"
+                name="dimensiune"
+                type="radio"
+                value="2200x1200"
+              />
+              <span> 2200x1200</span>
+            </label>
+            <label>
+              <input
+                id="radio900x1500"
+                name="dimensiune"
+                type="radio"
+                value="900x1500"
+              />
+              <span> 900x1500</span>
+            </label>
+            <label>
+              <input
+                id="radio1500x1500"
+                name="dimensiune"
+                type="radio"
+                value="1500x1500"
+              />
+              <span> 1500x1500</span>
+            </label>
+            <label>
+              <input
+                id="radio2000x1500"
+                name="dimensiune"
+                type="radio"
+                value="2000x1500"
+              />
+              <span> 2000x1500</span>
+            </label>
+          </div>
+          <div id="dimensiuneUsa" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DIMENSIUNE USA
+            </h3>
+            <label>
+              <input
+                id="radio1000x2100"
+                name="dimensiune"
+                type="radio"
+                value="1000x2100"
+              />
+              <span> 1000x2100</span>
+            </label>
+            <label>
+              <input
+                id="radio1000x2500"
+                name="dimensiune"
+                type="radio"
+                value="1000x2500"
+              />
+              <span> 1000x2500</span>
+            </label>
+            <label>
+              <input
+                id="radio1200x2100"
+                name="dimensiune"
+                type="radio"
+                value="1200x2100"
+              />
+              <span> 1200x2100</span>
+            </label>
+            <label>
+              <input
+                id="radio1200x2500"
+                name="dimensiune"
+                type="radio"
+                value="1200x2500"
+              />
+              <span> 1200x2500</span>
+            </label>
+            <label>
+              <input
+                id="radio1500x2100"
+                name="dimensiune"
+                type="radio"
+                value="1500x2100"
+              />
+              <span> 1500x2100</span>
+            </label>
+            <label>
+              <input
+                id="radio1500x2500"
+                name="dimensiune"
+                type="radio"
+                value="1500x2500"
+              />
+              <span> 1500x2500</span>
+            </label>
+          </div>
+          <div id="dimensiuneBalcon" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DIMENSIUNE USA BALCON/TERASA
+            </h3>
+            <label>
+              <input
+                id="radio800x2100"
+                name="dimensiune"
+                type="radio"
+                value="800x2100"
+              />
+              <span> 800x2100</span>
+            </label>
+            <label>
+              <input
+                id="radio1400x2100"
+                name="dimensiune"
+                type="radio"
+                value="1400x2100"
+              />
+              <span> 1400x2100</span>
+            </label>
+            <label>
+              <input
+                id="radio2400x2100"
+                name="dimensiune"
+                type="radio"
+                value="2400x2100"
+              />
+              <span> 2400x2100</span>
+            </label>
+          </div>
+          <div id="deschidereFereastra1" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d1" name="deschidere" type="radio" value="1/1" />
+              <span> o deschidere si un canat</span>
+            </label>
+          </div>
+          <div id="deschidereFereastra2" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d2" name="deschidere" type="radio" value="1/1" />
+              <span> o deschidere si un canat</span>
+            </label>
+            <label>
+              <input id="d3" name="deschidere" type="radio" value="fix" />
+              <span> un canat, fara deschidere </span>
+            </label>
+          </div>
+          <div id="deschidereFereastra3" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d4" name="deschidere" type="radio" value="1/1" />
+              <span> o deschidere si un canat</span>
+            </label>
+            <label>
+              <input id="d5" name="deschidere" type="radio" value="2/2" />
+              <span> 2 deschideri si 2 canate</span>
+            </label>
+          </div>
+          <div id="deschidereFereastra4" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d6" name="deschidere" type="radio" value="1/3" />
+              <span> o deschidere si 3 canate</span>
+            </label>
+            <label>
+              <input id="d7" name="deschidere" type="radio" value="2/3" />
+              <span> 2 deschideri si 3 canate</span>
+            </label>
+          </div>
+          <div id="deschidereUsa1L" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d8" name="deschidere" type="radio" value="1/1L" />
+              <span> o deschidere si un canat + luminator</span>
+            </label>
+          </div>
+          <div id="deschidereUsa2" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d9" name="deschidere" type="radio" value="1/2" />
+              <span> o deschidere si 2 canate</span>
+            </label>
+            <label>
+              <input id="d10" name="deschidere" type="radio" value="2/2" />
+              <span> 2 deschideri si 2 canate</span>
+            </label>
+          </div>
+          <div id="deschidereUsa2L" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              DESCHIDERE SI CANATE
+            </h3>
+            <label>
+              <input id="d11" name="deschidere" type="radio" value="1/2L" />
+              <span> o deschidere si 2 canate + luminator</span>
+            </label>
+            <label>
+              <input id="d12" name="deschidere" type="radio" value="2/2L" />
+              <span> 2 deschideri si 2 canate + luminator</span>
+            </label>
+          </div>
+          <div id="profil" class="card">
+            <h3 class="card-title" style="margin: 10px; color: #02185b">
+              PROFIL
+            </h3>
+            <label>
+              <input
+                id="aluplast"
+                name="profil"
+                type="radio"
+                value="Aluplast"
+              />
+              <span> Aluplast</span>
+            </label>
+            <label>
+              <input id="rehau" name="profil" type="radio" value="Rehau" />
+              <span> Rehau</span>
+            </label>
+            <label>
+              <input id="synego" name="profil" type="radio" value="Synego" />
+              <span> Synego</span>
+            </label>
+            <label>
+              <input id="geneo" name="profil" type="radio" value="Geneo" />
+              <span> Geneo</span>
+            </label>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div id="sticla1" class="card">
+                <h3 class="card-title" style="margin: 10px; color: #02185b">
+                  STICLA
+                </h3>
+                <label>
+                  <input id="dubla" name="sticla" type="radio" value="dubla" />
+                  <span> dubla</span>
+                </label>
+                <label>
+                  <input
+                    id="tripan"
+                    name="sticla"
+                    type="radio"
+                    value="tripan"
+                  />
+                  <span> tripan</span>
+                </label>
+              </div>
+              <div id="sticla2" class="card">
+                <h3 class="card-title" style="margin: 10px; color: #02185b">
+                  STICLA
+                </h3>
+                <label>
+                  <input
+                    id="tripan"
+                    name="sticla"
+                    type="radio"
+                    value="tripan"
+                  />
+                  <span> tripan</span>
+                </label>
+              </div>
+            </div>
+            <div class="col-6">
+              <div id="culoare" class="card">
+                <h3 class="card-title" style="margin: 10px; color: #02185b">
+                  CULOARE
+                </h3>
+                <label>
+                  <input id="alb" name="culoare" type="radio" value="alb" />
+                  <span> alb</span>
+                </label>
+                <label>
+                  <input id="color" name="culoare" type="radio" value="color" />
+                  <span> color</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <a
+            href="/quote/"
+            class="btn read_more"
+            type="submit"
+            style="margin: 10px"
+            >CANCEL</a
+          >
+          <input
+            class="btn read_more"
+            type="submit"
+            value="ADAUGA"
+            style="margin: 10px"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock main %} {% block js %}
+<script src="{% static 'js/dropdown.js' %}"></script>
+{% endblock js%}

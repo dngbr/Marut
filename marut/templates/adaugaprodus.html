@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.addEventListener("load", (event) => {
+        $("#id_dimensiune").hide();
+      });
+      $("#Radio1").change(function () {
+        $("#id_dimensiune").hide();
+      });
+      $("#Radio2").change(function () {
+        $("#p_div1").hide();
+        $("#p_div2").show();
+        $("#p_div3").hide();
+        $("#p_div11").hide();
+        $("#p_div22").show();
+        $("#p_div33").hide();
+      });
+      $("#Radio3").change(function () {
+        $("#p_div1").hide();
+        $("#p_div2").hide();
+        $("#p_div3").show();
+        $("#p_div11").hide();
+        $("#p_div22").hide();
+        $("#p_div33").show();
+      });
+    </script>
+  </head>
+  <body>
+    <form method="POST" action="" style="margin: 10px">
+      <h1 style="font-weight: bold; color: #02185b; font-size: 60px">
+        ADAUGA PRODUS
+      </h1>
+      <p style="color: #c50000; font-weight: bold">
+        *alegeti produsul pe care il doresti apoi apasa "ADAUGA" pentru a-l
+        adauga la comanda
+      </p>
+      <p style="color: #c50000; font-weight: bold">
+        **in cazul in care nu gasesti specifiicatile dorite, apasa "CANCEL" si
+        obtine o oferta custom
+      </p>
+      <div class="card">
+        <h3 class="card-title" style="margin: 10px; color: #02185b">ALEGE</h3>
+        <label>
+          <input id="Radio1" name="nume" type="radio" value="fereastra" />
+          <span> fereastra</span>
+        </label>
+        <label>
+          <input id="Radio2" name="nume" type="radio" value="usa" />
+          <span> usa</span>
+        </label>
+        <label>
+          <input id="Radio3" name="nume" type="radio" value="usa balcon" />
+          <span> usa balcon</span>
+        </label>
+      </div>
+      <div id="id_dimensiune" class="card">
+        <h3 class="card-title" style="margin: 10px; color: #02185b">
+          DIMENSIUNE
+        </h3>
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div id="dimensiune_fereastra">
+              <label>
+                <input name="dimensiune" type="radio" value="500x500" />
+                <span> 500x500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1000x500" />
+                <span> 1000x500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="800x1200" />
+                <span> 800x1200</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1400x1200" />
+                <span> 1400x1200</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="2200x1200" />
+                <span> 2200x1200</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="900x1500" />
+                <span> 900x1500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1500x1500" />
+                <span> 1500x1500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="2000x1500" />
+                <span> 2000x1500</span>
+              </label>
+            </div>
+            <div id="dimensiune_usa">
+              <label>
+                <input name="dimensiune" type="radio" value="1000x2100" />
+                <span> 1000x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1000x2500" />
+                <span> 1000x2500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1200x2100" />
+                <span> 1200x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1200x2500" />
+                <span> 1200x2500</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1500x2100" />
+                <span> 1500x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1500x2500" />
+                <span> 1500x2500</span>
+              </label>
+            </div>
+            <div id="dimensiune_usabalcon">
+              <label>
+                <input name="dimensiune" type="radio" value="1000x2100" />
+                <span> 1000x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="800x2100" />
+                <span> 800x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="1400x2100" />
+                <span> 1400x2100</span> </label
+              ><br />
+              <label>
+                <input name="dimensiune" type="radio" value="2400x2100" />
+                <span> 2400x2100</span>
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

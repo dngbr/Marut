@@ -1,0 +1,109 @@
+{% extends "base.html" %} {% load static %} {% block title%}
+<title>Marut</title>
+{% endblock title %} {% block main %}
+<div id="contact" class="contact">
+  <div class="container">
+    <div class="row d_flex">
+      <div class="col-md-6">
+        <div class="contact_box">
+          <div class="titlepage">
+            <span>Obtine oferta custom</span>
+            <h2>Descrie detaliile proiectului tau</h2>
+          </div>
+          <p>
+            Mentioneaza numarul de produse si detaliile fiecarui produs in parte
+            (profil, deschidere, dimensiuni, culoare, sticla, etc.).
+          </p>
+          <p style="opacity: 0.6">
+            De exemplu: 2 produse, fereastra 500x500 cu o deschidere, culoare
+            stejar si o usa 2000x1000 cu o deschidere si luminator
+          </p>
+          <p>
+            Noi iti vom trimite pe email oferta si te vom contacta si telefonic
+            in cel mai scurt timp.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        {% if request.user.is_authenticated %}
+        <form
+          action="{% url 'customquote' %}"
+          method="post"
+          id="contact"
+          class="main_form"
+        >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-md-12">
+              {{request.user.profile.nume}} {{request.user.profile.prenume}}
+            </div>
+            <div class="col-md-12">
+              Numar de telefon: {{request.user.profile.telefon}}
+            </div>
+            <div class="col-md-12">Email: {{request.user.email}}</div>
+            <div class="col-md-12">
+              <textarea
+                class="textarea"
+                placeholder="Mesaj"
+                type="text"
+                name="message"
+              ></textarea>
+            </div>
+            <div class="col-sm-12">
+              <input class="btn send_btn" type="submit" value="TRIMITE" />
+            </div>
+          </div>
+        </form>
+        {% else %}
+        <form
+          action="{% url 'customquote' %}"
+          method="post"
+          id="contact"
+          class="main_form"
+        >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-md-12">
+              <input
+                class="contactus"
+                placeholder="Nume"
+                type="text"
+                name="message-name"
+              />
+            </div>
+            <div class="col-md-12">
+              <input
+                class="contactus"
+                placeholder="Numarul de Telefon"
+                type="text"
+                name="message-phone"
+              />
+            </div>
+            <div class="col-md-12">
+              <input
+                class="contactus"
+                placeholder="Email"
+                type="email"
+                name="message-email"
+              />
+            </div>
+            <div class="col-md-12">
+              <textarea
+                class="textarea"
+                placeholder="Mesaj"
+                type="text"
+                name="message"
+              ></textarea>
+            </div>
+            <div class="col-sm-12">
+              <button class="send_btn">Trimite</button>
+            </div>
+          </div>
+        </form>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding-bottom: 300px"></div>
+{% endblock main %}
